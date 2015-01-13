@@ -1,0 +1,25 @@
+<div id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li class="toggle-menu">
+      <a class="show-me menu-toggle" id="menu-toggle">
+        <i class="fi-arrow-left" alt="Menu Toggle" style="text-align: right; width: 100%;"></i>
+        <span class="fi-arrow-right" alt="Menu Toggle"></span>
+      </a>
+    </li>
+    <li class="sidebar-brand">
+      ALXS Design
+    </li>
+    <li>
+      <%= link_to root_path do %>Home<span class="fi-home" alt="Dashboard"></span><% end %>
+    </li>
+    <li>
+      <%= link_to about_path do %>About<span class="foundicon-website" alt="About"></span><% end %>
+    </li>
+    <li>
+      <%= link_to projects_path do %>Projects<span class="fi-folder" alt="Projects"></span><% end %>
+    </li>
+<!--    <li>
+      <%= link_to contact_path do %>Contact<span class="fi-address-book" alt="Contact"></span><% end %>
+    </li> -->
+  </ul>
+</div>
