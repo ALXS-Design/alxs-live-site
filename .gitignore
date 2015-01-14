@@ -14,4 +14,4 @@
 # Ignore Spring files.
 /spring/*.pid
 /config/secrets.yml
-/public/assets/
+/public/assets/*
