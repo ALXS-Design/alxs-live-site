@@ -142,21 +142,24 @@ hr {
 }
 
 .column-design {
-  width: 90%;
+  width: auto;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .column-develop {
-  width: 90%;
+  width: auto;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .column-deploy {
-  width: 90%;
+  width: auto;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
@@ -449,7 +452,7 @@ background-position: 0 0;
 background-repeat: repeat;
 }
 .project#column {
-  background-image: url("/assets/column.jpg");
+  background-image: image-url("column.jpg");
   background-size: cover;
   min-height: 300px;
   border-radius: 15px;
@@ -467,7 +470,7 @@ text-transform: uppercase;
 text-align: right;
 }
 .project#sidebar {
-  background-image: url("/assets/sidebar.jpg");
+  background-image: image-url("sidebar.jpg");
   background-size: cover;
   min-height: 300px;
   border-radius: 15px;
@@ -518,14 +521,14 @@ font: bolder 3.0vw "Roboto", Arial;
 text-transform: uppercase;
 text-align: right;
 text-shadow: #732C7B 2px 2px 5px;
-/* background: url(/assets/transparent_black.png) repeat left top; */
+/* background: image-url("transparent_black.png") repeat left top; */
 display: inline-block;
 padding: 10px 15px;
 margin: 0 !important;
 }
 .sidebar-button {
   position: fixed;
-background: url(/assets/transparent_black.png) repeat left top;
+background: image-url("transparent_black.png") repeat left top;
 }
 div.description {
   background-color: rgba(0,0,0,0.9);

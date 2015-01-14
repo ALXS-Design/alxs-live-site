@@ -15,3 +15,5 @@
 /spring/*.pid
 /config/secrets.yml
 /public/assets/*
+# you can skip this first one if it is not already excluded by prior patterns
+!public/assets/*
