@@ -628,6 +628,7 @@ div.text {
     margin-bottom: 0px;
   }
 }
+
 .absolute {
   position: absolute;
 }
@@ -683,3 +684,37 @@ color: #732C7B;
 text-transform: uppercase;
 text-shadow: 0.5px 0.5px 3px #565656;
 }
+.social-icons {
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  font-size: 3vw;
+  text-align: right;
+  width: 4vw;
+}
+.social-icons [class*='fi-'] {
+  display: inline-block;
+  float: middle;
+  text-align: right;
+}
+.social-icons a:hover {
+  display: inline-block;
+  float: middle;
+  text-align: right;
+  background-color: rgba(0,0,0,0.5);
+}
+@media (max-width:767px) {
+  .social-icons {
+    visibility: hidden;
+    display: none;
+  }
+}
+@media (min-width:768px) {
+  .social-icon {
+    visibility: hidden;
+    display: none;
+  }
+}
+.navigation-padding {
+  height: 15vh;
+  }
