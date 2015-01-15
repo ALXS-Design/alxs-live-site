@@ -8,7 +8,8 @@
               <div class="text">
                 <h1 class="">Foundation Sidebar</h1>
                 <div class="buttons">
-                  <a href="/sidebar" class="button round">Demo/Download</a>
+                  <a href="/sidebar/" class="button round">Demo</a>
+                  <%= link_to 'Demo/Download', sidebar_path %>
                 </div>
               </div>
             </div>

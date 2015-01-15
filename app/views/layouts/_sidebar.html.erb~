@@ -1,0 +1,29 @@
+            <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="http://alxs.co.uk">
+                        Back to ALXS Design
+                    </a>
+                </li>
+                <li>
+                    <a href="#" alt="This">This<span class="fi-wrench" alt="Dashboard"></span></a>
+                </li>
+                <li>
+                    <a href="#" alt="Is">Is<span class="fi-link" alt="Shortcuts"></a>
+                </li>
+                <li>
+                    <a href="#">An<span class="fi-clipboard-notes" alt="Overview"></a>
+                </li>
+                <li>
+                    <a href="#">Example<span class="fi-calendar" alt="Events"></a>
+                </li>
+                <li>
+                    <a href="#">Navigation<span class="fi-comments" alt="About"></a>
+                </li>
+                <li>
+                    <a href="#">Menu<span class="fi-thumbnails" alt="Services"></a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->

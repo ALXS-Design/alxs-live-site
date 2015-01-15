@@ -189,10 +189,7 @@ hr {
   line-height: normal;
   text-align: center;
 }
-.jumbo h1 {
-  color: #732C7B;
-  text-shadow: 0.5px 0.5px 3px #565656;
-}
+.jumbo h1,
 .jumbo h2 {
   color: #732C7B;
   text-transform: uppercase;

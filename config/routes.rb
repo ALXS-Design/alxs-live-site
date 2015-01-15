@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
   resources :projects
-
+  match '/sidebar',        to: 'sidebar#index',               via: 'get'
   match '/about',        to: 'main#about',               via: 'get'
-  match '/projects',     to: 'main#projects',         via: 'get'
   match '/contact',      to: 'main#contact',          via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
