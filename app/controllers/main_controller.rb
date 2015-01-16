@@ -5,6 +5,9 @@ class MainController < ApplicationController
   def about
   end
 
+  def test
+  end
+  
   def projects
   end
 end
